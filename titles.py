@@ -1,5 +1,7 @@
 import scrap_jobs
 
+new_feature = ["New", "Branch", "Test"]
+
 def titles():
     df = scrap_jobs.scrap()
     titles = df['Title'].tolist()
